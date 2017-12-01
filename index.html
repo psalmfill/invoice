@@ -1,0 +1,220 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+	<title>Invoice</title>
+	<script type="text/javascript" src ="js/jquery.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css" >
+	
+</head>
+<body>
+	<page size="A4">
+	<div class="container" >
+		<div class="row">
+			<div class="col-md-5">
+				<div class="logo"><img src="img/logo.png" alt=""></div>
+				<div class="company-add">
+					<h2 class="hd-title" >
+					ACTIVE INTERACTIVE
+					</h2>
+					<h5 class="hd-footer">
+						GLOBAL MEDIA SOLUTIONS
+					</h5>
+					<p>12 highland garden,london</p>
+					<p>SW12434, United Knigdom</p>
+				</div>
+				
+			</div>
+			<div class="col-md-7 company-detail">
+				<div class="row">
+					<div class="col-md-4">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<p>info@companyname.com</p>
+						<p>careers@companyname.com</p>
+						<p>jobs@companyname.com</p>
+					</div>
+					<div class="col-md-4">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<p>+44(0) 131 1234 1234</p>
+						<p>Monday to Friday</p>
+						<p>9am to 5pm lines are open</p>
+					</div>
+					<div class="col-md-4">
+						<img src="img/web.png" alt="">
+						<p>www.companywebsite.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row customer">
+			<div class="col-md-5 ">
+				<div class="customer-address">
+					<p class="invoice-to"><img src="img/invoice.png" alt="">INVOICE TO</p>
+					<h3>Steven Cole</h3>
+					<p> 256 highland garden, london</p>
+					<p>SW12434, United Knigdom</p>
+					<br>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i> steven.cole@mywebsite.com</p>
+					<p><img src="img/phone.png" alt=""> 01744 5445454</p>
+				</div>
+			</div>
+			<div class="col-md-7 invoice">
+				<h2>INVOICE</h2>
+				<div class="invoice-detail">
+					<div class="icon">
+						<i class="fa fa-dollar" aria-hidden="true"></i>
+					</div>
+					
+					<p class="title">Total Due:</p>
+					<p class="value">$2624.28</p>
+				</div>
+				<div class="invoice-detail">
+					<div class="icon">
+						<i class="fa fa-calendar" aria-hidden="true"></i>
+					</div>
+					<p class="title">Invoice Date:</p>
+					<p class="value">22 March 2012</p>
+				</div>
+				<div class="invoice-detail">
+					<div class="icon">
+						<i class="fa fa-barcode" aria-hidden="true"></i>
+					</div>
+					<p class="title">Invoice #:</p>
+					<p class="value">2144877</p>
+				</div>
+			</div>
+		</div>
+		<table class="table table-responsive table-list table-striped">
+			<tr>
+				<th>Item Description</th>
+				<th>Unit Price</th>
+				<th>Quantity</th>
+				<th>Total</th>
+			</tr>
+			<tbody>
+			<tr>
+				<td>
+					<h4>Web Design</h4>
+					<p>An affordable website solution that provides everything a company needs for a professional online presence.</p>
+				</td>
+				<td>$599.00</td>
+				<td>2</td>
+				<td>$1198.00</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>E-book Design</h4>
+					<p>E-Book design which includes interface designing, charcter design, deployment and upload on the server.</p>
+				</td>
+				<td>$390.00</td>
+				<td>1</td>
+				<td>$390.00</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Hosting Plan</h4>
+					<p>One years hosting plan which includes 2 free email addresses, Free live support.</p>
+				</td>
+				<td>$114.00</td>
+				<td>1</td>
+				<td>$114.00</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Brochure Design</h4>
+					<p>Brochure design in Green and red color for international Film festival New york November 2012.</p>
+				</td>
+				<td>$200.00</td>
+				<td>3</td>
+				<td>$600.00</td>
+			</tr>
+			<tbody></tbody>
+		</table>
+
+		<div class="">
+			<div class=" " id="total-table">
+				<table class=" total text-right">
+					<tr>
+						<td>SUB TOTAL:</td>
+						<td class="price">$2302.00</td>
+					</tr>
+					<tr>
+						<td>Tax:VAT 20%:</td>
+						<td class="price">$460.00</td>
+					</tr>
+					<tr class="amt-discount">
+						<td>DISCOUNT 5%:</td>
+						<td class="price">-$138.12</td>
+					</tr>
+					<tr class="amt-total">
+						<td>Total Due:</td>
+						<td class="price">$4278.12</td>
+					</tr>
+
+				</table>
+				<div class="sign text-center">
+					<img src="img/signature.png" alt="">
+					<p>Terry Brown</p>
+					<p class="pos">Account Manager</p>
+				</div>
+			</div>
+			<div class=" pay pull-left">
+			<p class="pay-option"><span>Payment Method:</span>  Cheque, Paypal, BACS, Western Union</p>
+			<div class="paypal">
+				<img src="img/paypal.png" alt="">
+				<p>payments@websitename.com</p>
+			</div>
+			<div class="card-pay">
+				<img src="img/card.png" alt="">
+				<h5>Card Payament</h5>
+				<p>We Accept:<br/>Visa, Master card, American Expresse</p>
+			</div>
+			<div class="western-union">
+				<img src="img/western-union.png" alt="">
+				<p>Active Interactive</p> 
+				<p>256 highland garden,</p>
+				<p> london SW12434,</p>
+					<p>	United kingdom</p>
+			</div>
+			</div>
+			
+			
+			<p class="container">Thank you for your business </p>
+		</div>
+		<div class="clearfix"></div>
+		<br>
+		<p>Terms: Payment should be made within 30 days by cheque, western union money transfer or phone us. </p>
+		<br>
+		<div class="row footer">
+			<div class="col-md-3">
+				<img src="img/logo.png" alt="">
+			</div>
+			<div class="col-md-8 footer-dt">
+				<div class="row">
+					<div class="col-md-4">
+						<i></i>
+						<p>info@companyname.com</p>
+						<p>careers@companyname.com</p>
+						<p>jobs@companyname.com</p>
+					</div>
+					<div class="col-md-4">
+						<i></i>
+						<p>+44(0) 131 1234 1234</p>
+						<p>Monday to Friday</p>
+						<p>9am to 5pm lines are open</p>
+					</div>
+					<div class="col-md-4">
+						<i></i>
+						<p>www.companywebsite.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</page>
+	</body>
+</html>
